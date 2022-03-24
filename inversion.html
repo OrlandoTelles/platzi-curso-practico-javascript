@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo Interes de Inversion</title>
+</head>
+<body>
+    <header>
+        <h1>Calculo Interes de Inversion.</h1>
+    </header>
+
+    <section>
+        <h2>Practica final</h2>
+
+        <form action="">
+            <label for="InputInversion">Inversion $:</label>
+            <input id="InputInversion" type="number">
+
+            <label for="InputAños">Plazo en años:</label>
+            <input id="InputAños" type="number">
+
+            <label for="Tasa28Dias">TIIE 28 dias</label>
+            <input id="Tasa28Dias" type="number">
+
+            <label for="Tasa91Dias">TIIE 91 dias</label>
+            <input id="Tasa91Dias" type="number">
+
+            <label for="SPRED">SPRED</label>
+            <input id="SPRED" type="number">
+
+            <button type="button" onclick="CalcularTasaTotal()">Calcular interes</button>
+
+            <p id="resultP"></p>
+        </form>
+    </section>
+
+    <script src="./inversion.js"></script>
+</body>
+</html>
